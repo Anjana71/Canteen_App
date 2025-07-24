@@ -36,7 +36,7 @@ This is a web-based application built using **Streamlit** that allows students t
 ## 🛠 Technologies Used
 - 🐍 **Python 3.10+**
 - 📦 **Streamlit** – UI framework
-- 🗄️ **SQLite** or **PostgreSQL** – Database
+- 🗄️ **SQLite**  – Database
 - 🗃️ **Pandas** – Data export
 - 🖥️ Localhost Deployment (optionally deploy on Streamlit Cloud or Render)
 
