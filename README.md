@@ -17,9 +17,7 @@ The system includes:
 ✔ Menu management
 ✔ Daily summary visualization
 
-```
 
-```
 🔧 Features
 👨‍🎓 Student Portal
 🔐 Secure login & registration (password-protected)
@@ -33,9 +31,6 @@ The system includes:
 📦 Track order status (Pending / Completed)
 🚪 Logout securely
 
-'''
-
-'''
 
 👨‍🍳 Owner Dashboard
 📊 Overview panel showing:
@@ -50,8 +45,7 @@ Slot-wise counts (10:30 AM vs 1:00 PM)
 📈 Daily summary visualization
 
 
-'''
-'''
+
 
 🛠 Technologies Used
 🐍 Python 3.10+
@@ -64,14 +58,12 @@ Slot-wise counts (10:30 AM vs 1:00 PM)
 📂 Project Structure
 📦 Canteen_App
 
-'''
 
-│
-├── app.py                     # Main Streamlit application
+
+                   
 ├── database.db                # SQLite database
-├── student_functions.py       # Student panel logic
-├── owner_functions.py         # Owner dashboard logic
-├── utils.py                   # Helpers for UI, validation, etc.
+├── student_app.py             # Student panel logic
+├── owner_app.py               # Owner dashboard logic                 
 ├── images/                    # Screenshots for README
 │   ├── student_ui.png
 │   ├── owner_dashboard.png
@@ -79,7 +71,7 @@ Slot-wise counts (10:30 AM vs 1:00 PM)
 ├── requirements.txt           # Dependencies
 └── README.md                  # Documentation
 
-'''
+
 ```
 📸 Student Output Screenshots
 
@@ -122,7 +114,8 @@ cd Canteen_App
 pip install -r requirements.txt
 
 3️⃣ Run the App
-streamlit run app.py
+streamlit run student_app.py    - run the student portal
+streamlit run owner_app.py    - run the owner portal
 
 🔮 Future Enhancements
 📱 Student Mobile App (Flutter / React Native)
