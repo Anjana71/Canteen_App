@@ -3,7 +3,8 @@
 A streamlined, user-friendly canteen ordering and management application built using Streamlit + SQLite.
 The system allows students to pre-order food, check dues, make payments, and track order status, while owners manage menu items, orders, payments, and daily reports.
 
----
+```
+
 🎯 Overview
 This project aims to remove long queues, reduce food waste, and offer transparency between students and the canteen.
 
@@ -16,9 +17,9 @@ The system includes:
 ✔ Menu management
 ✔ Daily summary visualization
 
----
+```
 
----
+```
 🔧 Features
 👨‍🎓 Student Portal
 🔐 Secure login & registration (password-protected)
@@ -32,9 +33,9 @@ The system includes:
 📦 Track order status (Pending / Completed)
 🚪 Logout securely
 
----
+'''
 
----
+'''
 
 👨‍🍳 Owner Dashboard
 📊 Overview panel showing:
@@ -49,15 +50,16 @@ Slot-wise counts (10:30 AM vs 1:00 PM)
 📈 Daily summary visualization
 
 
----
----
+'''
+'''
 
 🛠 Technologies Used
 🐍 Python 3.10+
 🎨 Streamlit — front-end UI
 🗄️ SQLite — database
 📦 Pandas — data export / manipulation
-💻 Localhost deployment (optional cloud deploy on Streamlit Cloud / Render)
+💻 Localhost deployment
+
 
 📂 Project Structure
 📦 Canteen_App
@@ -78,7 +80,7 @@ Slot-wise counts (10:30 AM vs 1:00 PM)
 └── README.md                  # Documentation
 
 '''
-
+```
 📸 Student Output Screenshots
 
 🖼️ Student Dashboard
@@ -109,6 +111,8 @@ Slot-wise counts (10:30 AM vs 1:00 PM)
 <p align="center"> <img src="download daily report.png" width="80%"> </p>
 📊 Payment Log
 <p align="center"> <img src="payment_log.png" width="80%"> </p>
+
+```
 🚀 How to Run Locally
 1️⃣ Clone the Repository
 git clone https://github.com/Anjana71/Canteen_App.git
@@ -121,25 +125,16 @@ pip install -r requirements.txt
 streamlit run app.py
 
 🔮 Future Enhancements
-
 📱 Student Mobile App (Flutter / React Native)
-
 🔔 Real-time order notifications
-
 🎫 QR-code based pickup system
-
 🚀 Cloud deployment
-
 💳 UPI / Wallet integration
-
 🧮 Analytics dashboard for long-term food planning
 
 ❤️ Acknowledgements
-
 Streamlit
-
 SQLite
-
 Pandas
-
 Matplotlib / Seaborn
+```
